@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family:'Poetsen One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    margin: 0;
+    background-color: aqua;
+}
+
+h2{
+    margin: 10px 0;
+}
+
+h3{
+    margin: 20px 0;
+}
+
+h4{
+    margin: 20px 0;
+}
+h6{
+    margin: 5px 0;
+    text-transform: capitalize;
+}
+.card-container{
+    background-color: #353B48;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+    color: white;
+    padding: 30px 0 0 0;
+    width: 350px;
+    text-align: center;
+    position: relative;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+}
+
+.Pro{
+    color: #231e39;
+    border-radius: 3px;
+    padding: 3px 7px; 
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.online{
+    background-color: greenyellow;
+}
+.offline{
+    background-color: red;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+button.primary{
+    background-color: #5937ef;
+    border-radius: 3px;
+    border: 1px solid rgb(54, 54, 255);
+    color: white;
+    padding: 10px 25px; 
+    font-size: 14px;
+    font-weight: 500px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    top: 30px;
+    left: 30px;
+}
+button.primary.outline{
+    background-color: transparent;
+}
+
+.skills{
+    text-align: left;
+    background-color: #2f3640;
+    padding: 20px;
+    border-radius: 0 0dvh 20px 20px;
+    margin-top: 20px;
+}
+
+.skills ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills ul li{
+    border: 1px solid #ccc;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 7px;
+    margin: 5px;
+    font-size: 14px;
+
+
+}
+
+.skills h6{
+    text-transform: uppercase;
+    font-size: 20px;
+}

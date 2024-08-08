@@ -1,0 +1,11 @@
+body{
+  font-family: sans-serif;
+}
+.input-box{
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  margin-top: 50px;
+  margin-left: 250px;
+}

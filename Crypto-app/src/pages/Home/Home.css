@@ -1,0 +1,119 @@
+.home {
+  padding: 0 px;
+  padding-bottom: 100px;
+}
+
+.hero {
+  max-width: 600px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.hero h1 {
+  font-size: max(4wh, 36px);
+}
+
+.hero p {
+  width: 75%;
+  color: white;
+  line-height: 1.5;
+}
+.hero form {
+  padding: 8px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0 0 0 0.1);
+}
+
+.hero form input {
+  border: none;
+  flex: 1;
+  font-size: 16px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.hero button {
+  background: #7927ff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.crypto-table {
+  max-width: 800px;
+  margin: auto;
+  background: linear-gradient(rgba(84, 3, 255, 0.15), rgba(105, 2, 153, 0.15));
+  border-radius: 15px;
+}
+
+.table-layout {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+  padding: 15px 20px;
+  align-items: center;
+  border-bottom: 1px solid #3c3c3c;
+}
+.market-cap {
+  text-align: right;
+}
+
+.green-c {
+  color: green;
+}
+
+.red-c {
+  color: red;
+}
+
+.market-cap {
+  align-items: end;
+}
+
+.table-layout:last-child {
+  border: none;
+}
+
+.table-layout div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.table-layout div img {
+  width: 35px;
+  height: 35px;
+}
+
+@media (max-width: 768px) {
+  .table-layout {
+    grid-template-columns: 0.5fr 3fr 1fr 1fr;
+  }
+  .market-cap {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .table-layout div img {
+    width: 25px;
+  }
+  .table-layout {
+    font-size: 13px;
+  }
+  .hero form input {
+    width: 100px;
+  }
+}

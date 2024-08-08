@@ -1,0 +1,92 @@
+/* App.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #c3a6ff, #e6ccff);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  color: #4a148c;
+}
+
+.input-container {
+  margin-bottom: 30px;
+}
+
+.input-container h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #4a148c;
+}
+
+.input-container input {
+  width: calc(100% - 24px);
+  padding: 15px;
+  margin: 10px 0;
+  border: 2px solid #b39ddb;
+  border-radius: 10px;
+  font-size: 1em;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.input-container input:focus {
+  border-color: #7e57c2;
+  outline: none;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button-container button {
+  background-color: #7e57c2;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #4a148c;
+}
+
+.user-details {
+  margin-top: 30px;
+  text-align: left;
+  border-top: 2px solid #b39ddb;
+  padding-top: 20px;
+}
+
+.user-details h2 {
+  margin-bottom: 15px;
+  font-size: 2em;
+  color: #4a148c;
+}
+
+.user-details p {
+  margin: 8px 0;
+  font-size: 1em;
+  color: #555;
+}

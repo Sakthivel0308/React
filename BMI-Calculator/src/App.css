@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(14, 36, 60);
+}
+
+.bmi-calculator{
+  width: 800px;
+  height: 500px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0 0 0 0.1);
+  display: flex;
+}
+
+.box{
+  width: 350px;
+  background-image: url('./assets/bmi-imag.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.data{
+  flex: 1;
+  padding: 15px;
+}
+h1{
+  font-weight: 800;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  color: #2980b9;
+  font-size: 28px;
+}
+
+label{
+  display: block;
+  margin-bottom: 5px;
+  color: #888;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+button{
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover{
+  background-color: #2980b9;
+}
+
+.result{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #2980b9;
+  border-radius: 5px;
+}
+.result p{
+  margin: 10px 0;
+  color: #555;
+}
+
+.result p:first-child{
+  font-weight: bold;
+  color: #3498db;
+}
+.error{
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.data button:nth-of-type(2){
+  margin-left: 10px;
+  background-color: rgb(255, 0, 0);
+}
+
+.data button:nth-of-type(2):hover{
+  background-color: rgb(174, 25, 25);
+}
